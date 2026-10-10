@@ -11,7 +11,7 @@
 
 | 算法 | signType 值 | 说明 |
 |------|-------------|------|
-| RSA | `RSA` | SHA1withRSA |（若同时使用其它产品，选择此方式）
+| RSA | `RSA` | SHA1withRSA （若同时使用其它产品，选择此方式）|
 | RSA2 | `RSA2` | SHA256withRSA（推荐） |
 
 ## 签名字符串构造
