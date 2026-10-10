@@ -22,7 +22,7 @@
 | `tradeType` | String | **是** | 交易类型。H5 快捷支付填 `MWEB` |
 | `signType` | String | **是** | 签名算法类型：`RSA` / `RSA2` |
 | `sign` | String | **是** | 签名值（按签名规则计算，详见 `references/signing.md`） |
-| `unionId` | String | 是 | 数字 unionId |
+| `unionId` | String | **是** | 数字 unionId |
 | `openId` | String | 否 | 数字 openId（连尚会员 + 接入连尚应用 = openId） |
 | `timeStart` | String | 否 | 交易起始时间，格式 `yyyyMMddHHmmss`，如 `20260616120000` |
 | `timeExpire` | String | 否 | 交易失效时间，格式 `yyyyMMddHHmmss` |
